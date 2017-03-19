@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: Raleway;
+  box-sizing: border-box;
+
 }
 
 @font-face {
@@ -38,7 +40,6 @@ header {
 .wrapper {
   max-width: 1054px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .logo {
@@ -73,14 +74,6 @@ ul li {
 .arrowBefore {
   display: inline-block;
   float: left;
-  font-size: 50px;
-  color: rgb(39, 199, 171);
-  margin-top: 160px;
-}
-
-.arrowAfter {
-  display: inline-block;
-  float: right;
   font-size: 50px;
   color: rgb(39, 199, 171);
   margin-top: 160px;
@@ -130,6 +123,14 @@ ul li {
   left: 35px;
 }
 
+.arrowAfter {
+  display: inline-block;
+  float: right;
+  font-size: 50px;
+  color: rgb(39, 199, 171);
+  margin-top: 160px;
+}
+
 .photos {
   margin-top: 20px;
 }
@@ -156,7 +157,7 @@ ul li {
   width: 329px;
   height: 20px;
   background-color: rgba(250, 250, 250, .5);
-  margin-top: 130px;
+  margin-top: 150px;
   padding: 30px 10px;
 }
 
@@ -171,8 +172,144 @@ ul li {
   border: 2px solid lightgrey;
   display: inline-block;
   float: left;
+  padding: 20px 20px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: grey;
 }
 
-.findsAllInputs:first-child {
-  font-weight: bold;
+.clear {
+  clear: both;
+}
+
+.prices {
+  height: 650px;
+  background-color: rgb(241, 241, 241);
+  margin-top: 80px;
+}
+
+.prices p {
+  padding-top: 40px;
+}
+
+.greenLineLong {
+  width: 320px;
+  border-top: 5px solid rgb(39, 199, 171);
+}
+
+.priceFrame {
+  width: 329px;
+  height: 450px;
+  display: inline-block;
+  float: left;
+  border: 2px solid lightgrey;
+  position: relative;
+  margin-top: 70px;
+  background-color: rgb(249, 249, 249);
+}
+
+.round {
+  width: 50px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -35px;
+  left: 139px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border: 13px solid lightgrey;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.priceFrame2 {
+  width: 329px;
+  height: 450px;
+  display: inline-block;
+  float: left;
+  border: 2px solid lightgrey;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 33px;
+  background-color: rgb(249, 249, 249);
+}
+
+.round2 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -35px;
+  left: 139px;
+}
+
+.dot2 {
+  width: 10px;
+  height: 10px;
+  border: 13px solid lightgrey;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.priceFrame3 {
+  width: 329px;
+  height: 450px;
+  display: inline-block;
+  float: right;
+  border: 2px solid lightgrey;
+  position: relative;
+  margin-top: 70px;
+  background-color: rgb(249, 249, 249);
+}
+
+.round3 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -35px;
+  left: 139px;
+}
+
+.dot3 {
+  width: 10px;
+  height: 10px;
+  border: 13px solid lightgrey;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.contactForm p {
+    padding-top: 40px;
+}
+
+form {
+  float: left;
+  width: 70%;
+}
+
+.contactRightSide {
+  float: left;
+  width: 30%;
+}
+
+.redChair {
+  background-image: url("../images/red_chair.png");
+  width: 264px;
+  height: 210px;
 }
