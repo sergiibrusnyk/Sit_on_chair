@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Sit on chair</title>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -25,8 +26,16 @@
 
     <section class="slider">
         <div class="wrapper">
-            <div class="arrowBefore">&lt;</div>
-            <div class="blackChair"></div>
+            <div id="prevPicture">&lt;</div>
+
+            <ul class="slider">
+                <li class="sliderImg"><img src="images/black_chair.png">
+                </li>
+                <li class="sliderImg"><img src="images/orange.png"></li>
+                <li class="sliderImg"><img src="images/red.png"></li>
+            </ul>
+
+
             <div class="content">
                 <h1>SIT <span class="greenLetters"><b>ON</b></span> OUR <span class="greenLetters"><b>CHAIR</b></span></h1><br>
                 <p>
@@ -36,7 +45,7 @@
                     <div class="button">ZOBACZ WIĘCEJ</div>
                 </a>
             </div>
-            <div class="arrowAfter">&gt;</div>
+            <div id="nextPicture">&gt;</div>
         </div>
     </section>
 

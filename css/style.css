@@ -3,7 +3,6 @@
     padding: 0;
     font-family: Raleway;
     box-sizing: border-box;
-    /*border: 1px solid red;*/
 }
 
 @font-face {
@@ -74,7 +73,7 @@ ul li {
     height: 400px;
 }
 
-.arrowBefore {
+#prevPicture {
     display: inline-block;
     float: left;
     font-size: 55px;
@@ -82,17 +81,29 @@ ul li {
     margin-top: 160px;
 }
 
-.blackChair {
-    width: 470px;
-    height: 337px;
-    background-image: url("../images/black_chair.png");
+ul {
     display: inline-block;
     float: left;
-    margin-top: 40px;
+}
+
+ul img {
+    border: none;
+}
+
+.slider ul {
+    list-style: none;
+}
+
+.slider li {
+    display: none;
+}
+
+.slider .show {
+    display: inline-block;
 }
 
 .content {
-    width: 45%;
+    width: 40%;
     display: inline-block;
     float: left;
     margin-top: 100px;
@@ -119,10 +130,10 @@ ul li {
     color: white;
     text-align: center;
     padding: 8px;
-    margin: 15px 0 0 150px;
+    margin: 15px 0 0 130px;
 }
 
-.arrowAfter {
+#nextPicture {
     display: inline-block;
     float: right;
     font-size: 55px;
@@ -369,7 +380,6 @@ textarea {
     font-weight: 200;
     color: lightgrey;
     padding-left: 10px;
-    margin: 0px 0;
 }
 
 .contactRightSide {
