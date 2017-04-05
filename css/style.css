@@ -155,7 +155,12 @@ ul img {
     color: white;
     text-align: center;
     padding: 8px;
-    margin: 15px 0 0 130px;
+    margin: 15px 0 0 125px;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(39, 199, 171);
 }
 
 #nextPicture {
@@ -174,12 +179,22 @@ ul img {
     background-image: url("../images/box1_img.jpg");
     height: 225px;
     width: 329px;
+    transition: transform 1s;
+}
+
+.img1:hover {
+    transform: scale(1.1);
 }
 
 .img2 {
     background-image: url("../images/box2_img.jpg");
     height: 225px;
     width: 329px;
+    transition: transform 1s;
+}
+
+.img2:hover {
+    transform: scale(1.1);
 }
 
 .whiteBelt {
@@ -229,11 +244,16 @@ ul img {
 .priceFrame {
     width: 329px;
     height: 450px;
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
     border-radius: 3px;
     position: relative;
     background-color: rgb(249, 249, 249);
     margin-top: 60px;
+    transition: transform 1s;
+}
+
+.priceFrame:hover {
+    transform: scale(1.05);
 }
 
 .priceFrame span {
@@ -247,7 +267,7 @@ ul img {
 .round {
     width: 50px;
     height: 50px;
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
     border-radius: 50%;
     background-color: white;
     position: absolute;
@@ -261,15 +281,15 @@ ul img {
     border: 13px solid lightgrey;
     border-radius: 50%;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 11px;
+    left: 11px;
 }
 
 .priceRound {
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
     margin: 0 auto;
     margin-top: 25px;
     position: relative;
