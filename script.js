@@ -32,17 +32,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     document.querySelector(".img1").addEventListener("mouseover", function(mouseOver) {
-        stripe[0].style.display = "none";
+        stripe[0].style.visibility = "hidden";
     });
     document.querySelector(".img1").addEventListener("mouseout", function(mouseOut) {
-        stripe[0].style.display = "block";
+        stripe[0].style.visibility = "visible";
     });
 
     document.querySelector(".img2").addEventListener("mouseover", function(mouseOver) {
-        stripe[1].style.display = "none";
+        stripe[1].style.visibility = "hidden";
     });
     document.querySelector(".img2").addEventListener("mouseout", function(mouseOut) {
-        stripe[1].style.display = "block";
+        stripe[1].style.visibility = "visible";
+    });
+
+    //********************DROP MENU********************//
+    var menu = Array.from(document.querySelectorAll(".menu > li"));
+    var drop = Array.from(document.querySelectorAll(".drop_menu"));
+
+    menu[0].addEventListener("mouseover", function(event) {
+        drop[0].style.display = "block";
+    });
+
+    menu[0].addEventListener("mouseout", function(event) {
+        drop[0].style.display = "none";
+    });
+
+    menu[1].addEventListener("mouseover", function(event) {
+        drop[1].style.display = "block";
+    });
+
+    menu[1].addEventListener("mouseout", function(event) {
+        drop[1].style.display = "none";
     });
 
 });
