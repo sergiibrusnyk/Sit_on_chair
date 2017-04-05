@@ -159,8 +159,8 @@ ul img {
 }
 
 .button:hover {
-    background-color: white;
-    color: rgb(39, 199, 171);
+    background-color: #2c9683;
+    color: white;
 }
 
 #nextPicture {
@@ -358,6 +358,11 @@ table td {
     margin: 100px 0 0 102px;
 }
 
+.priceButton:hover {
+    background-color: #2c9683;
+    color: white;
+}
+
 .priceButton1 {
     height: 35px;
     width: 120px;
@@ -368,6 +373,11 @@ table td {
     text-align: center;
     padding-top: 7px;
     margin: 65px 0 0 102px;
+}
+
+.priceButton1:hover {
+    background-color: lightgrey;
+    color: rgb(39, 199, 171);
 }
 
 .priceFrame .white {
@@ -385,6 +395,11 @@ table td {
     text-align: center;
     padding-top: 7px;
     margin: 30px 0 0 102px;
+}
+
+.priceButton2:hover {
+    background-color: #2c9683;
+    color: white;
 }
 
 .contactForm {
@@ -468,6 +483,11 @@ img {
     font-size: 24px;
     text-align: center;
     padding-top: 10px;
+}
+
+.buttonForm:hover {
+    background-color: #2c9683;
+    color: white;
 }
 
 .footerRightPart {
