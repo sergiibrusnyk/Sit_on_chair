@@ -121,6 +121,7 @@ ul img {
 
 .slider li {
     display: none;
+    margin-top: 50px;
 }
 
 .slider .show {
