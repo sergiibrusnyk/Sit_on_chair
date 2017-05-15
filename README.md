@@ -1,3 +1,4 @@
-# Sit_on_chair
-Warsztat 1 (HTML &amp; CSS)<br>
-Link - https://sergiibrusnyk.github.io/Sit_on_chair/
+It's my first page with JavaScript elements. 
+I've made it during the course in Coders Lab.
+
+Live preview - https://sergiibrusnyk.github.io/Sit_on_chair/
